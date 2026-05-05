@@ -1,0 +1,5 @@
+com\accenture\pessoa\controller\PessoaController.class
+com\accenture\pessoa\repository\PessoaRepository.class
+com\accenture\pessoa\entity\Pessoa.class
+com\accenture\pessoa\PessoaSwaggerApplication.class
+com\accenture\pessoa\service\PessoaService.class

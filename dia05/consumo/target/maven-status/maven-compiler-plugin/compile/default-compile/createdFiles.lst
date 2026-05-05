@@ -1,0 +1,5 @@
+com\accenture\consumo\ConsumoApplication.class
+com\accenture\consumo\interfaces\EnderecoRepository.class
+com\accenture\consumo\model\Endereco.class
+com\accenture\consumo\controller\CepRestController.class
+com\accenture\consumo\interfaces\CepService.class

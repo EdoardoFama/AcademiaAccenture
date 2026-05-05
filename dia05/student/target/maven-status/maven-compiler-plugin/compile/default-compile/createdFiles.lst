@@ -1,0 +1,5 @@
+acc\br\student\model\Student.class
+acc\br\student\repository\StudentRepository.class
+acc\br\student\StudentApplication.class
+acc\br\student\controller\StudentController.class
+acc\br\student\service\StudentService.class
