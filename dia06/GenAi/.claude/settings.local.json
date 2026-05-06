@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd \"c:\\\\accenture_projects\\\\exercicios_accenture\\\\dia06\\\\GenAi\"; $proc = Start-Process -FilePath \".\\\\mvnw.cmd\" -ArgumentList \"spring-boot:run\" -RedirectStandardOutput \"run4_output.txt\" -RedirectStandardError \"run4_error.txt\" -PassThru -NoNewWindow; Start-Sleep -Seconds 18; try { $response = Invoke-WebRequest -Uri \"http://localhost:8080/q\" -TimeoutSec 60 -UseBasicParsing; \"STATUS: $\\($response.StatusCode\\)\"; \"BODY: $\\($response.Content\\)\" } catch { \"ERROR: $_\" }; Start-Sleep -Seconds 2; Get-Process -Id $proc.Id -ErrorAction SilentlyContinue | Stop-Process -Force)",
+      "PowerShell(netstat -ano)",
+      "PowerShell(Stop-Process -Id 2508 -Force; Start-Sleep -Seconds 2; cd \"c:\\\\accenture_projects\\\\exercicios_accenture\\\\dia06\\\\GenAi\"; $proc = Start-Process -FilePath \".\\\\mvnw.cmd\" -ArgumentList \"spring-boot:run\" -RedirectStandardOutput \"run5_output.txt\" -RedirectStandardError \"run5_error.txt\" -PassThru -NoNewWindow; Start-Sleep -Seconds 18; try { $response = Invoke-WebRequest -Uri \"http://localhost:8080/q\" -TimeoutSec 60 -UseBasicParsing; \"STATUS: $\\($response.StatusCode\\)\"; \"BODY: $\\($response.Content\\)\" } catch { \"ERROR: $_\" })",
+      "PowerShell(taskkill /PID 22992 /F)"
+    ]
+  }
+}
